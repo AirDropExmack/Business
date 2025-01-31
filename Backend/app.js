@@ -9,7 +9,6 @@ const Database = process.env.DATABASE_URL;
 const cors = require("cors")
 console.log("The database url is : " + Database);
 const zod = require("zod");
-
 // app.use(cors({
 //   origin : "http://localhost:3000",
 //   methods : ["GET","POST"],
